@@ -36,7 +36,7 @@ var path = exportService.Export([FILE NAME], [DATA]);
 ```
 Using IExcelService for reading data from an excel file.
 ```c#
-var data = excelService.ReadFile([FILE'S PATH]);
+var data = excelService.ReadFile<AccountInfo>([PATH TO FILE]);
 ```
 
 ## Contributing
