@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <Authors>Tuan cao</Authors>
     <Company>C-Sharp VN</Company>
     <Product />
@@ -11,11 +11,13 @@
     <PackageIconUrl></PackageIconUrl>
     <RepositoryUrl>https://github.com/quoctuancqt/c-sharp-excel</RepositoryUrl>
     <RepositoryType>Github</RepositoryType>
+    <Version>5.0.0</Version>
+    <PackageReleaseNotes>Upgrade version Net 5</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EPPlus.Core" Version="1.5.4" />
-    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.0" />
+    <PackageReference Include="EPPlus" Version="5.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
   </ItemGroup>
 
 </Project>

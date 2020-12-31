@@ -31,7 +31,7 @@
 
             using (ExcelPackage package = new ExcelPackage(new FileInfo(path)))
             {
-                ExcelWorksheet worksheet = package.Workbook.Worksheets[1];
+                ExcelWorksheet worksheet = package.Workbook.Worksheets[0];
 
                 return GetTable<T>(worksheet);
             }
