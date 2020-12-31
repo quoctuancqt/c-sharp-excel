@@ -5,8 +5,12 @@ A powerful library to help you import/export excel using Dotnet Core
 ## Installation
 
 ```bash
-Install-Package CSharpExcel -Version 1.0.0
+Install-Package CSharpExcel -Version 5.0.0
 ```
+
+## Notes
+
+This package is using [EPPlus 5.0](https://github.com/EPPlusSoftware/EPPlus). With the new license EPPlus is still free to use in some cases, but will require a commercial license to be used in a commercial business. Read more detail [here](https://www.epplussoftware.com/en/LicenseOverview)
 
 ## Usage
 
